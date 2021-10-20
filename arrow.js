@@ -79,7 +79,15 @@ const jsNinja = str => {
 */
 
 //CODE HERE
-
+const compareNums = (num1, num2) => {
+  if (num1 > num2){
+    return num1
+  } else {
+    return num2
+    }
+    
+  }
+  console.log(compareNums(4,4))
   
 ////////// PROBLEM 6 //////////
 
@@ -95,3 +103,7 @@ const jsNinja = str => {
 */
 
 //CODE HERE
+
+const bestMovie = MOVIEPARAM => `${MOVIEPARAM} is the best movie ever!`
+
+console.log(bestMovie('Sharknado'))

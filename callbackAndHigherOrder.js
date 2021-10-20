@@ -6,7 +6,7 @@
 */
 
 // CODE HERE
-
+const multiple = (num1, num2, 'str');
 
 // UNCOMMENT THE FUNCTION CALL BELOW
 // RUN THIS FILE WITH NODE
